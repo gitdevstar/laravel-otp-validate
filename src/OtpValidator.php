@@ -50,7 +50,7 @@ class OtpValidator
             //throw $th;
             return Responder::formatter([
                 'code' => StatusCodes::BAD_REQUEST,
-                'message' => StatusMessages::BAD_REQUEST
+                'message' => StatusMessages::INVALID_REQUEST
             ]);
         }
 
