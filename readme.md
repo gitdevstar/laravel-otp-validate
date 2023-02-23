@@ -187,7 +187,7 @@ The below table describes the error codes generated in the response and their co
 {
   "code": 201,
   "message": "OTP Sent to the recipient",
-  "requestId": 1432,
+  "uniqueId": 1432,
   "type": "buy-shirt"
 }
 ```
