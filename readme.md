@@ -4,7 +4,7 @@ This package is for easy setup for OTP validation process. No hassle, just plug 
 
 [![Laravel 8|9](https://img.shields.io/badge/Laravel-7|8-orange.svg)](http://laravel.com)
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/gitdevstar/laravel-otp-validate.svg)](https://packagist.org/packagesgitdevstar/laravel-otp-validate)
+[![Latest Stable Version](https://img.shields.io/packagist/v/gitdevstar/laravel-otp-validate.svg)](https://packagist.org/packages/gitdevstar/laravel-otp-validate)
 
 [![Total Downloads](https://poser.pugx.org/gitdevstar/laravel-otp-validate/downloads.png)](https://packagist.org/packages/gitdevstar/laravel-otp-validate)
 
