@@ -1,0 +1,56 @@
+{
+    "name": "gitdevstar/laravel-otp-validate",
+    "description": "Laravel package for OTP validation with built-in features like retry and resend mechanism. Built in max retry and max resend blocking. OTP/Security Code can be send over SMS or Email of your choice with user-defined template.",
+    "type": "library",
+    "homepage": "https://github.com/gitdevstar/laravel-otp-validate",
+    "keywords": [
+        "php",
+        "laravel",
+        "otp",
+        "security-code",
+        "email",
+        "sms",
+        "otp-validation",
+        "retry",
+        "resend"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Logan P",
+            "email": "loganph.work@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Ferdous\\OtpValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ferdous\\OtpValidator\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.1.8|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "nesbot/carbon": "^2.22",
+        "aws/aws-sdk-php": "^3.179"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ferdous\\OtpValidator\\OtpValidatorServiceProvider"
+            ],
+            "aliases": {
+                "OtpVerifier": "Ferdous\\OtpValidator\\OtpValidatorFacade"
+            }
+        }
+    }
+}
