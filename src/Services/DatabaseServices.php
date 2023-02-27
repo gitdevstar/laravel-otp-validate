@@ -43,8 +43,7 @@ class DatabaseServices
                 ->where('created_at', '>', Carbon::now(config('app.timezone'))->subSeconds(config('otp.timeout')))
                 ->first();
         }
-        return Otps::where('status', DBStates::NEW)
-            ->where('uuid', $uuid)
+        return Otps::where('uuid', $uuid)
             ->first();
 
     }
