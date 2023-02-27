@@ -4,11 +4,11 @@ This package is for easy setup for OTP validation process. No hassle, just plug 
 
 [![Laravel 8|9](https://img.shields.io/badge/Laravel-7|8-orange.svg)](http://laravel.com)
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/gitdevstar/laravel-otp-validate.svg)](https://packagist.org/packages/gitdevstar/laravel-otp-validate)
+[![Latest Stable Version](https://img.shields.io/packagist/v/devstar/laravel-otp-validate.svg)](https://packagist.org/packages/devstar/laravel-otp-validate)
 
-[![Total Downloads](https://poser.pugx.org/gitdevstar/laravel-otp-validate/downloads.png)](https://packagist.org/packages/gitdevstar/laravel-otp-validate)
+[![Total Downloads](https://poser.pugx.org/devstar/laravel-otp-validate/downloads.png)](https://packagist.org/packages/devstar/laravel-otp-validate)
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/gitdevstar/laravel-otp-validate)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/devstar/laravel-otp-validate)
 
 ## Requirements
 - [PHP >= 7](http://php.net/)
@@ -19,7 +19,7 @@ This package is for easy setup for OTP validation process. No hassle, just plug 
 ### Install Package
 Require this package with composer:
 ```
-composer require gitdevstar/laravel-otp-validate
+composer require devstar/laravel-otp-validate
 ```
 ### Add Service Provider & Facade
 
